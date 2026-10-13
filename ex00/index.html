@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Capstone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">Toggle Theme</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="assets/avatar.jpg" alt="Profile Photo" class="profile-img">
+                <div>
+                    <p>Hello! I am a passionate full-stack web development student navigating through the curriculum. I build responsive, clean, and interactive websites from scratch using semantic HTML5, modern CSS3, and ES6+ JavaScript.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML5 & Semantic</div>
+                <div class="skill-card">CSS3 & Flexbox</div>
+                <div class="skill-card">JavaScript (ES6+)</div>
+                <div class="skill-card">DOM Manipulation</div>
+                <div class="skill-card">Git & GitHub</div>
+                <div class="skill-card">Linux & CLI</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Project Showcase</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project 00</h3>
+                    <p>Setup, CLI, and HTML Basics introduction.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 01</h3>
+                    <p>Advanced CSS layouts, positioning, and shapes.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 02</h3>
+                    <p>Color models, visual styling, and responsiveness.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 03</h3>
+                    <p>JavaScript interactivity, DOM manipulation, and Task Manager.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>When I am not writing code, I enjoy exploring Linux distributions, reading technology articles, solving algorithmic puzzles, and cybersecurity CTF challenges.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Personal Portfolio. Built completely from scratch.</p>
+    </footer>
+</body>
+</html>
